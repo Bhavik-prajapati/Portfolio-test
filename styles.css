@@ -216,6 +216,7 @@ nav ul li a {
         margin-left:0;
     }
     #about p{
+        margin-left: 0;
         font-size: 20px;
     }
 }
