@@ -3,12 +3,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #0c0717;
-    color: #fff;
 }
 
 header {
     background-color: #333;
+    color: #fff;
     padding: 1rem 0;
+    text-align: center;
     position: relative;
 }
 
@@ -58,6 +59,10 @@ nav ul li a {
     font-weight: 800;
     line-height: 72px;
     margin-bottom: 16px;
+    max-width: 100%;
+    width: max-content;
+    margin-left: 150px;
+    margin-bottom: 30px;
 }
 
 .text-content p {
@@ -67,6 +72,7 @@ nav ul li a {
     line-height: 40px;
     max-width: 800px;
     padding-bottom: 1.2rem;
+    margin-left: 150px;
 }
 
 .text-content a {
@@ -81,14 +87,11 @@ nav ul li a {
     opacity: 1;
     padding: 10px 50px;
     transition: .4s ease;
-    display: inline-block;
+    width: 300px;
+    margin-left: 150px;
 }
 
-#about, #projects, #contact {
-    padding: 2rem;
-}
-
-#about h2, #projects h2, #contact h2 {
+#about h2{
     -webkit-text-fill-color: transparent;
     background: linear-gradient(121.57deg, #fff 18.77%, hsla(0, 0%, 100%, .66) 60.15%);
     -webkit-background-clip: text;
@@ -96,52 +99,63 @@ nav ul li a {
     font-weight: 800;
     line-height: 72px;
     margin-bottom: 16px;
+    max-width: 100%;
+    width: max-content;
+    margin-left: 150px;
+    margin-bottom: 30px;
 }
-
-#about p, #projects p, #contact p {
+#about p{
     color: hsla(0, 0%, 100%, .5);
     font-size: 24px;
     font-weight: 300;
     line-height: 40px;
+    max-width: 800px;
+    padding-bottom: 1.2rem;
+    margin-left: 150px;  
 }
-
-#about a {
+#about a{
     border: 1px dotted #fff;
     padding: 15px;
     transition: .2s;
+    margin-left: 150px;
 }
-
-#projects .project {
-    margin-bottom: 2rem;
+#projects h2{
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(121.57deg, #fff 18.77%, hsla(0, 0%, 100%, .66) 60.15%);
+    -webkit-background-clip: text;
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 72px;
+    margin-bottom: 16px;
+    max-width: 100%;
+    width: max-content;
+    margin-left: 150px;
+    margin-bottom: 30px;
 }
-
-#contact form {
-    display: flex;
-    flex-direction: column;
-}
-
-#contact form label {
-    margin-bottom: 0.5rem;
-}
-
-#contact form input, #contact form textarea {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    border: none;
-    border-radius: 5px;
-}
-
-#contact form button {
-    background: linear-gradient(270deg, #13adc7, #945dd6);
-    border: none;
-    border-radius: 50px;
-    color: #fff;
-    cursor: pointer;
+#projects h3{
+    color: hsla(0, 0%, 100%, .5);
     font-size: 24px;
-    font-weight: 600;
-    padding: 10px 50px;
-    transition: .4s ease;
+    font-weight: 300;
+    line-height: 40px;
+    max-width: 800px;
+    padding-bottom: 1.2rem;
+    margin-left: 700px;  
 }
+#contact h2{
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(121.57deg, #fff 18.77%, hsla(0, 0%, 100%, .66) 60.15%);
+    -webkit-background-clip: text;
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 72px;
+    margin-bottom: 16px;
+    max-width: 100%;
+    width: max-content;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+
 
 @media (max-width: 768px) {
     .nav-container {
@@ -187,6 +201,14 @@ nav ul li a {
         font-size: 20px;
         height: auto;
     }
+    #about h2{
+        font-size: 48px;
+        line-height: 56px;
+        margin-left:0;
+    }
+    #about p{
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -216,6 +238,13 @@ nav ul li a {
     .text-content a {
         font-size: 18px;
         padding: 10px 15px;
+    }
+    #about h2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    #about p{
+        font-size: 18px;
     }
 }
 
