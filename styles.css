@@ -163,6 +163,24 @@ nav ul li a {
     margin-left: 150px;
     margin-bottom: 30px;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
 
 
 
@@ -232,11 +250,7 @@ nav ul li a {
         line-height: 56px;
         margin-left:0;
     }
-    #contact h2{
-        font-size: 48px;
-        line-height: 56px;
-        margin-left:0;
-    }
+    
 }
 
 @media (max-width: 480px) {
@@ -275,10 +289,6 @@ nav ul li a {
         font-size: 18px;
     }
     #projects h2{
-        font-size: 36px;
-        line-height: 44px;
-    }
-    #contact h2{
         font-size: 36px;
         line-height: 44px;
     }
