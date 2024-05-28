@@ -39,6 +39,7 @@ header{
     }
     .left{
         width: 90%;
+        margin-right: 70px;
     }
     .right{
         display: none;  
