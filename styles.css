@@ -34,11 +34,11 @@ header{
         display: none;
     }
     #sec1{
-        width: 100%;
+        width: 140%;
         padding: 0px 0px !important;
     }
     .left{
-        width: 100%;
+        width: 90%;
     }
     .right{
         display: none;  
