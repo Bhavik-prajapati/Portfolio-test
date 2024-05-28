@@ -58,6 +58,7 @@ header {
         line-height: 72px;
         
     }
+    
 }
 
 #sec1 {
@@ -83,7 +84,7 @@ header {
     -webkit-background-clip: text;
     font-size: 65px;
     font-weight: 800;
-    line-height: 72px;
+    line-height: 50px;
 }
 
 .text-content p {
